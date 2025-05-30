@@ -7,6 +7,11 @@ public class Armazem {
     private List<Integer> containers = new ArrayList<>();
     private int capacidadeAtual = 0;
 
+    public boolean adicionar(int volume, int capacidadeMaxima){ // implementar
+
+        return false;
+    }
+
     public int getCapacidadeAtual() {
         return capacidadeAtual;
     }
