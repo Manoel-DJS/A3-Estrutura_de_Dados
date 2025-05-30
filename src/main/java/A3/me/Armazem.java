@@ -8,7 +8,11 @@ public class Armazem {
     private int capacidadeAtual = 0;
 
     public boolean adicionar(int volume, int capacidadeMaxima){ // implementar
-
+        if (capacidadeAtual + volume <= capacidadeMaxima) {
+            containers.add(volume);
+            capacidadeAtual += volume;
+            return true;
+        }
         return false;
     }
 
